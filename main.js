@@ -34,11 +34,31 @@ let track_list = [
     path: "https://easterscience.github.io/easterplayer/songs/neffex/Best_of_Me.mp3"
   },
   {
-    name: "Shipping Lanes",
-    artist: "Chad Crouch",
+    name: "Destiny",
+    artist: "NEFFEX",
     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/Destiny.mp3",
   },
+
+  {
+    name: "Fight Back",
+    artist: "NEFFEX",
+    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/Fight_Back_BLENDER_Remix.mp3"
+  },
+  {
+    name: "GMV Numb",
+    artist: "NEFFEX",
+    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/GMV_Numb.mp3"
+  },
+  {
+    name: "Let Me Down",
+    artist: "NEFFEX",
+    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/Le_Me_Down.mp3",
+  },
+  
 ];
 
 function random_bg_color() {
