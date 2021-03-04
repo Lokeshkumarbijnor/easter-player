@@ -56,9 +56,27 @@ let track_list = [
     name: "Let Me Down",
     artist: "NEFFEX",
     image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Le_Me_Down.mp3",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/Let_Me_Down.mp3",
   },
   
+  {
+    name: "Never Give Up",
+    artist: "NEFFEX",
+    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/Never_Give_Up.mp3"
+  },
+  {
+    name: "Rumors",
+    artist: "NEFFEX",
+    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/Rumors.mp3"
+  },
+  {
+    name: "Unstoppable",
+    artist: "NEFFEX",
+    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/Unstoppable.mp3",
+  },
 ];
 
 function random_bg_color() {
