@@ -1,2 +1,2 @@
-# easterplayer.github.io
+# easterplayer
 Easter Music Player
