@@ -25,7 +25,7 @@ let track_list = [
     name: "Night Owl",
     artist: "Broke For Free",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "C:\Users\Lokes\Desktop\GitHub_Pro\easterplayer\songs\neffex\NEFFEX - Cold.mp3"
+    path: "https://easterscience.github.io/easterplayer/songs/neffex/NEFFEX%20-%20Cold.mp3"
   },
   {
     name: "Enthusiast",
