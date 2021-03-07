@@ -22,6 +22,12 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+    name: "Samjhawan",
+    artist: "Hampty Sharma Ki Dulhaniya",
+    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
+    path: "https://easterscience.github.io/easterplayer/songs/bollywood/Samjhawan.flac"
+  },
+  {
     name: "It's So Cold",
     artist: "NEFFEX",
     image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
