@@ -1,5 +1,5 @@
 let now_playing = document.querySelector(".now-playing");
-let track_art = document.querySelector(".track-art");
+//let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");
 let track_artist = document.querySelector(".track-artist");
 
@@ -23,67 +23,73 @@ let curr_track = document.createElement('audio');
 let track_list = [
   
   {
-    name: "It's So Cold",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Cold.mp3"
+    name: "Aankh Marey",
+    artist: "T-Series",
+    path: "songs/Aankh_Marey.flac"
   },
   {
-    name: "Samjhawan",
-    artist: "Hampty Sharma Ki Dulhaniya",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/bollywood/Samjhawan.flac"
+    name: "Ab Chahe Maa Roothe",
+    artist: "T-Series",
+    path: "songs/Ab_Chahe_Maa_Roothe.wav"
   },
   {
-    name: "Best of Me",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Best_of_Me.mp3"
+    name: "Ankhiyon Se Goli Mare",
+    artist: "T-Series",
+    path: "songs/Ankhiyon_Se_Goli_Mare.flac"
   },
   {
-    name: "Destiny",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Destiny.mp3"
-  },
-
-  {
-    name: "Fight Back",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Fight_Back_BLENDER_Remix.mp3"
+    name: "Baatein Ye Kabhi Na",
+    artist: "T-Series",
+    path: "songs/Baatein_Ye_Kabhi_Na.flac"
   },
   {
-    name: "GMV Numb",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/GMV_Numb.mp3"
+    name: "Chalti Hai Kya 9 Se 12",
+    artist: "T-Series",
+    path: "songs/Chalti_Hai_Kya_9_Se_12.flac"
   },
   {
-    name: "Let Me Down",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Let_Me_Down.mp3"
+    name: "Dilbar",
+    artist: "T-Series",
+    path: "songs/Dilbar.flac"
+  },
+  {
+    name: "Dus Bahane",
+    artist: "T-Series",
+    path: "songs/Dus_Bahane.flac"
+  },
+  {
+    name: "Ek Do Teen",
+    artist: "T-Series",
+    path: "songs/Ek_Do_Teen.flac"
+  },
+  {
+    name: "O Saki Saki",
+    artist: "T-Series",
+    path: "songs/O_Saki_Saki.flac"
+  },
+  {
+    name: "Muqabla",
+    artist: "T-Series",
+    path: "songs/Muqabla.flac"
+  },
+  {
+    name: "Samjhawan Ki",
+    artist: "Arijit Singh",
+    path: "songs/Samjhawan.flac"
   },
   
   {
-    name: "Never Give Up",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Never_Give_Up.mp3"
+    name: "Sheher Ki Ladki",
+    artist: "T-Series",
+    path: "songs/Sheher_Ki_Ladki.flac"
   },
   {
-    name: "Rumors",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Rumors.mp3"
+    name: "Tu Par Hum Hai Atke",
+    artist: "T-Series",
+    path: "songs/Tum_Par_Hum_Hai_Atke.flac"
   },
-  {
-    name: "Unstoppable",
-    artist: "NEFFEX",
-    image: "https://images.pexels.com/photos/1717969/pexels-photo-1717969.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
-    path: "https://easterscience.github.io/easterplayer/songs/neffex/Unstoppable.mp3"
-  },
+
+  
 ];
 
 function random_bg_color() {
@@ -104,16 +110,22 @@ function loadTrack(track_index) {
   clearInterval(updateTimer);
   resetValues();
   curr_track.src = track_list[track_index].path;
+  //curr_track.controls = true
+  curr_track.id = "abc"
+  curr_track.volume = 0.5;
   curr_track.load();
-
-  track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
+  var src = document.getElementById("audio")
+  src.appendChild(curr_track);
+  //track_art.style.backgroundImage = "url(" + track_list[track_index].image + ")";
   track_name.textContent = track_list[track_index].name;
   track_artist.textContent = track_list[track_index].artist;
   now_playing.textContent = "PLAYING " + (track_index + 1) + " OF " + track_list.length;
+  //track_path.textContent = track_list[track_index].path;
 
   updateTimer = setInterval(seekUpdate, 1000);
   curr_track.addEventListener("ended", nextTrack);
   random_bg_color();
+
 }
 
 function resetValues() {
