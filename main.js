@@ -2,6 +2,8 @@ let now_playing = document.querySelector(".now-playing");
 //let track_art = document.querySelector(".track-art");
 let track_name = document.querySelector(".track-name");
 let track_artist = document.querySelector(".track-artist");
+//track-path
+//let track_path = document.querySelector(".track-path");
 
 let playpause_btn = document.querySelector(".playpause-track");
 let next_btn = document.querySelector(".next-track");
@@ -14,83 +16,66 @@ let total_duration = document.querySelector(".total-duration");
 
 let track_index = 0;
 let isPlaying = false;
+
 let updateTimer;
 
 // Create new audio element
 let curr_track = document.createElement('audio');
-
 // Define the tracks that have to be played
 let track_list = [
   
   {
-    name: "Aankh Marey",
-    artist: "T-Series",
-    path: "songs/Aankh_Marey.flac"
-  },
-  {
-    name: "Ab Chahe Maa Roothe",
-    artist: "T-Series",
-    path: "songs/Ab_Chahe_Maa_Roothe.wav"
-  },
-  {
-    name: "Ankhiyon Se Goli Mare",
-    artist: "T-Series",
-    path: "songs/Ankhiyon_Se_Goli_Mare.flac"
-  },
-  {
-    name: "Baatein Ye Kabhi Na",
-    artist: "T-Series",
-    path: "songs/Baatein_Ye_Kabhi_Na.flac"
-  },
-  {
-    name: "Chalti Hai Kya 9 Se 12",
-    artist: "T-Series",
-    path: "songs/Chalti_Hai_Kya_9_Se_12.flac"
-  },
-  {
-    name: "Dilbar",
-    artist: "T-Series",
-    path: "songs/Dilbar.flac"
-  },
-  {
-    name: "Dus Bahane",
-    artist: "T-Series",
-    path: "songs/Dus_Bahane.flac"
-  },
-  {
-    name: "Ek Do Teen",
-    artist: "T-Series",
-    path: "songs/Ek_Do_Teen.flac"
-  },
-  {
-    name: "O Saki Saki",
-    artist: "T-Series",
-    path: "songs/O_Saki_Saki.flac"
-  },
-  {
-    name: "Muqabla",
-    artist: "T-Series",
-    path: "songs/Muqabla.flac"
-  },
-  {
-    name: "Samjhawan Ki",
-    artist: "Arijit Singh",
-    path: "songs/Samjhawan.flac"
+    name: "It's So Cold",
+    artist: "NEFFEX",
+    path: "songs/Cold.mp3"
   },
   
   {
-    name: "Sheher Ki Ladki",
-    artist: "T-Series",
-    path: "songs/Sheher_Ki_Ladki.flac"
+    name: "Best of Me",
+    artist: "NEFFEX",
+    path: "songs/Best_of_Me.mp3"
   },
   {
-    name: "Tu Par Hum Hai Atke",
-    artist: "T-Series",
-    path: "songs/Tum_Par_Hum_Hai_Atke.flac"
+    name: "Destiny",
+    artist: "NEFFEX",
+    path: "songs/Destiny.mp3"
   },
 
+  {
+    name: "Fight Back",
+    artist: "NEFFEX",
+    path: "songs/Fight_Back_BLENDER_Remix.mp3"
+  },
+  {
+    name: "GMV Numb",
+    artist: "NEFFEX",
+    path: "songs/GMV_Numb.mp3"
+  },
+  {
+    name: "Let Me Down",
+    artist: "NEFFEX",
+    path: "songs/Let_Me_Down.mp3"
+  },
   
+  {
+    name: "Never Give Up",
+    artist: "NEFFEX",
+    path: "songs/Never_Give_Up.mp3"
+  },
+  {
+    name: "Rumors",
+    artist: "NEFFEX",
+    path: "songs/Rumors.mp3"
+  },
+  {
+    name: "Unstoppable",
+    artist: "NEFFEX",
+    path: "songs/Unstoppable.mp3"
+  },
 ];
+
+
+
 
 function random_bg_color() {
 
@@ -201,5 +186,7 @@ function seekUpdate() {
     total_duration.textContent = durationMinutes + ":" + durationSeconds;
   }
 }
+
+
 
 
