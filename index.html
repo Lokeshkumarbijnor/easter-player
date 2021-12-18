@@ -5,18 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Easter Music Player</title>
   <!-- Load FontAwesome icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
 
   <!-- Load the custom CSS style file -->
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
+  
   <div class="player">
+    
     <div class="details">
       <div class="now-playing">PLAYING x OF y</div>
-      <div class="track-art"></div>
+      <!-- <div class="track-art"></div> -->
+      <canvas id='canvas' width="350px" height="300px"></canvas>
+      <div id="audio"></div>
       <div class="track-name">Track Name</div>
       <div class="track-artist">Track Artist</div>
+      <!-- <div class="track-path">Track Path</div> -->
     </div>
     <div class="buttons">
       <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
@@ -37,5 +43,6 @@
 
   <!-- Load the main script for the player -->
   <script src="main.js"></script>
+  <script src="wave_main.js"></script>
 </body>
 </html>
