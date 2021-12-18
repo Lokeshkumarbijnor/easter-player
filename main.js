@@ -27,50 +27,50 @@ let track_list = [
   {
     name: "It's So Cold",
     artist: "NEFFEX",
-    path: "songs/Cold.mp3"
+    path: "songs/neffex/Cold.mp3"
   },
   
   {
     name: "Best of Me",
     artist: "NEFFEX",
-    path: "songs/Best_of_Me.mp3"
+    path: "songs/neffex/Best_of_Me.mp3"
   },
   {
     name: "Destiny",
     artist: "NEFFEX",
-    path: "songs/Destiny.mp3"
+    path: "songs/neffex/Destiny.mp3"
   },
 
   {
     name: "Fight Back",
     artist: "NEFFEX",
-    path: "songs/Fight_Back_BLENDER_Remix.mp3"
+    path: "songs/neffex/Fight_Back_BLENDER_Remix.mp3"
   },
   {
     name: "GMV Numb",
     artist: "NEFFEX",
-    path: "songs/GMV_Numb.mp3"
+    path: "songs/neffex/GMV_Numb.mp3"
   },
   {
     name: "Let Me Down",
     artist: "NEFFEX",
-    path: "songs/Let_Me_Down.mp3"
+    path: "songs/neffex/Let_Me_Down.mp3"
   },
   
   {
     name: "Never Give Up",
     artist: "NEFFEX",
-    path: "songs/Never_Give_Up.mp3"
+    path: "songs/neffex/Never_Give_Up.mp3"
   },
   {
     name: "Rumors",
     artist: "NEFFEX",
-    path: "songs/Rumors.mp3"
+    path: "songs/neffex/Rumors.mp3"
   },
   {
     name: "Unstoppable",
     artist: "NEFFEX",
-    path: "songs/Unstoppable.mp3"
+    path: "songs/neffex/Unstoppable.mp3"
   },
 ];
 
