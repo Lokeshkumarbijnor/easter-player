@@ -4,6 +4,22 @@ body {
   /* Smoothly transition the background color */
   transition: background-color .5s;
 }
+a{
+  color:yellow;
+}
+.bar-wrapper {
+  height: 300px;
+  position: relative;
+}
+.bar {
+  position: relative;
+  bottom: 0;
+  width: 5px;
+  display: inline-block;
+  border: 1px solid red;
+  height: 5px;
+  border-bottom: 3px solid #fff;
+}
 
 .player {
   height: 95vh;
